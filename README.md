@@ -1,58 +1,40 @@
-# 👋 Hello! I'm Joseph Edjeani
+# Joseph Edjeani
 
-### 🚀 Data Scientist | Machine Learning Engineer | Electrical Engineer
+**AI / ML Engineer** · Takoradi, Ghana · Open to remote and relocation
 
-I'm passionate about solving real-world problems through **data science**, **machine learning**, and **clean code**. I love transforming raw data into actionable insights.
+I build machine learning systems end to end: training and evaluating the model, serving it behind a fast API, and shipping it to the cloud with CI/CD. My background is in Electrical & Electronics Engineering, and I'm heading toward robotics and applied AI.
 
----
-
-### 🧠 Technical Skills & Interests
-
-- 🔍 Machine Learning & Deep Learning
-- 🧮 Data Analysis
-- 📈 Time Series Forecasting
-- 📊 Data Visualization (Matplotlib, Seaborn)
-- 🔧 Model Deployment & MLOps
-- 🖥️ Computer Vision (OpenCV, CNNs)
-- 🧠 Natural Language Processing (NLP)
+**Main stack:** Python · Go · Rust · PyTorch / TensorFlow · ONNX · LangChain / LangGraph · Docker · GCP
 
 ---
 
-### 🛠️ Tools & Languages
+## Featured work
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+### [MammoScan AI](https://github.com/josephed37/mammoscan-AI)
+Breast cancer classification from mammograms, built as a full production system rather than a notebook.
+- CNN and transfer-learning models in TensorFlow, exported to **ONNX** and served by a **Go** API
+- Deployed on **Google Cloud Run**, with the model in GCS and GitHub Actions deploying through **Workload Identity Federation** (no stored keys)
+- Data versioned with **DVC**; architecture, deployment and training are documented in `docs/`
 
----
+### [FactCheck-AI](https://github.com/josephed37/FactCheck-AI)
+Fact-checking app that grounds an LLM in live web search.
+- **Go** backend pulls fresh results from Tavily, builds the prompt context and calls Gemini
+- Shows the sources behind every verdict and keeps a history of checks in SQLite
+- Streamlit frontend; the whole stack runs with Docker Compose
 
-### 📚 Projects
-
-- 🦖 **[Dino-Vision](https://github.com/josephed37/dino-vision):**  
-  Gesture-controlled Chrome Dino game using OpenCV and computer vision.
-
-- 🚀 **[IBM Data Science Capstone Project](https://github.com/josephed37/IBM-Data-Science-Capstone-Project):**  
-  Predict SpaceX rocket launch success through exploratory data analysis and ML.
-
-- 📦 **[Log Analytics Pipeline](https://gitlab.com/josephed/log-analytics-pipeline):**  
-  A full-stack, containerized pipeline for ingesting, processing, storing, and visualizing application logs built with **Docker, Apache Airflow, Grafana, MinIO, Python, PostgreSQL**, and more.
+### [Dino Vision](https://github.com/josephed37/dino-vision)
+The Chrome dinosaur game rebuilt in Pygame and played with hand gestures, using OpenCV for real-time control.
 
 ---
 
-### 📫 Connect with Me
+## What I'm focused on
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joseph-edjeani)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
-[![Medium](https://img.shields.io/badge/Medium-black?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/)
+- LLM systems that are measured, not just demoed: evaluations, cost and latency tracking, reliability
+- Infrastructure for AI in Go and Rust
+- Robotics and AI planning
 
 ---
 
-### 🎯 Goals for 2025
-- 📕 Publish a blog series on machine learning for beginners
-- 🎓 Complete tons of machine learning projects
-- 🤝 Collaborate on impactful open-source AI projects
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/joseph-edjeani)
